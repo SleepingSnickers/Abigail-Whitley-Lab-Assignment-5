@@ -13,24 +13,42 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Problem 1">
+      <UniqueIdentifier>{f577f03c-3e42-42d9-89b3-b1047483270d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Problem 1">
+      <UniqueIdentifier>{3bcba26c-7dd8-4969-99f2-03b6a3b8b34c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Problem 2">
+      <UniqueIdentifier>{de40c509-44db-4af9-957c-92ca24740878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Problem 2">
+      <UniqueIdentifier>{a9a27ee9-b4d5-4d48-bbfc-9109058f45e3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Pixel.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="PicReader.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Problem 1</Filter>
+    </ClInclude>
+    <ClInclude Include="Pixel.h">
+      <Filter>Header Files\Problem 1</Filter>
+    </ClInclude>
+    <ClInclude Include="EaterOf.h">
+      <Filter>Header Files\Problem 2</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Pixel.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="PicReader.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Problem 1</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Pixel.cpp">
+      <Filter>Source Files\Problem 1</Filter>
+    </ClCompile>
+    <ClCompile Include="EaterOf.cpp">
+      <Filter>Source Files\Problem 2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

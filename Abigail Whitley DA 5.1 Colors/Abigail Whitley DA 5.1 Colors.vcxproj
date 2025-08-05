@@ -123,10 +123,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="EaterOf.h" />
     <ClInclude Include="PicReader.h" />
     <ClInclude Include="Pixel.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="EaterOf.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PicReader.cpp" />
     <ClCompile Include="Pixel.cpp" />

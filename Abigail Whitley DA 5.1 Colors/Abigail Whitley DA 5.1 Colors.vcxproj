@@ -126,12 +126,14 @@
     <ClInclude Include="EaterOf.h" />
     <ClInclude Include="PicReader.h" />
     <ClInclude Include="Pixel.h" />
+    <ClInclude Include="PrimeFactors.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EaterOf.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PicReader.cpp" />
     <ClCompile Include="Pixel.cpp" />
+    <ClCompile Include="PrimeFactors.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

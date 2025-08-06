@@ -25,6 +25,12 @@
     <Filter Include="Header Files\Problem 2">
       <UniqueIdentifier>{a9a27ee9-b4d5-4d48-bbfc-9109058f45e3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Problem 3">
+      <UniqueIdentifier>{52596109-68ad-4fab-b11a-accdd65cb3a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Problem 3">
+      <UniqueIdentifier>{63bb8c66-7bf2-434c-a9d0-a3e0cdcfb12b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PicReader.h">
@@ -35,6 +41,9 @@
     </ClInclude>
     <ClInclude Include="EaterOf.h">
       <Filter>Header Files\Problem 2</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimeFactors.h">
+      <Filter>Header Files\Problem 3</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -49,6 +58,9 @@
     </ClCompile>
     <ClCompile Include="EaterOf.cpp">
       <Filter>Source Files\Problem 2</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimeFactors.cpp">
+      <Filter>Source Files\Problem 3</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

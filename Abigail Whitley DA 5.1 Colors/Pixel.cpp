@@ -1,6 +1,7 @@
 #include "Pixel.h"
 #include <math.h>
 
+//constructors
 Pixel::Pixel() {
 	X = 0;
 	Y = 0;
@@ -19,6 +20,7 @@ Pixel::Pixel(int X, int Y, int red, int green, int blue, char img) {
 	this->img = img;
 }
 
+//getters and setters
 int Pixel::getX() const { 
 	return X;
 }
@@ -67,7 +69,9 @@ void Pixel::setImg(char img) {
 	this->img = img;
 }
 
+//<< overload
 ostream& operator<< (ostream& out, Pixel& pix) {
+	//depending on the highest color value of the pixels, a different character will be shown
 	if (pix.getRed() > pix.getBlue() && pix.getRed() > pix.getGreen()) {
 		pix.setImg('R');
 	}

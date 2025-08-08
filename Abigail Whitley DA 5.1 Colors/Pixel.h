@@ -31,6 +31,7 @@ public:
 	void setBlue(int);
 	void setImg(char);
 
+	//<< overload
 	friend ostream& operator<< (ostream&, Pixel&);
 };
 
